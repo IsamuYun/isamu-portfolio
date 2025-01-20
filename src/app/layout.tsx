@@ -26,7 +26,7 @@ export default function RootLayout({
       <body className={twMerge(
         inter.variable, 
         calistoga.variable, 
-        "bg-gray-900 text-white antialiased font-sans"
+        "bg-blue-950 text-white antialiased font-mono"
         )}>
         {children}
       </body>
