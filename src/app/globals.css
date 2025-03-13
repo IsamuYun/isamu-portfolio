@@ -16,3 +16,9 @@
 
    /* border-emerald-300/60 shadow-emerald-300/60*/
 }
+
+@layer utilities {
+   .container {
+      @apply lg:max-w-5xl;  
+   }
+}
